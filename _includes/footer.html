@@ -1,12 +1,18 @@
 <footer>
-	Connect with me:
-	<a id="footer-email">Email</a>
-	<script>
-		const obfuscated_email = [128, 118, 114, 112, 135, 120, 124, 59, 129, 124, 122, 110, 128, 135, 77, 116, 122, 110, 118, 121, 59, 112, 124, 122]
-		const deobfuscated_email = obfuscated_email.map(charCode => charCode - 13)
+	<div>Connect with me:</div>
+	<div>
+		<a id="footer-email">Email</a>
+		<script>
+			const obfuscated_email = [128, 118, 114, 112, 135, 120, 124, 59, 129, 124, 122, 110, 128, 135, 77, 116, 122, 110, 118, 121, 59, 112, 124, 122]
+			const deobfuscated_email = obfuscated_email.map(charCode => charCode - 13)
 
-		document.getElementById('footer-email').setAttribute('href', `mailto:${String.fromCharCode(...deobfuscated_email)}`)
-	</script>
-	<a href="https://www.linkedin.com/in/tomasz-sieczko-1119a21a4/">LinkedIn</a>
-	<a href="https://github.com/tsieczko">GitHub</a>
+			document.getElementById('footer-email').setAttribute('href', `mailto:${String.fromCharCode(...deobfuscated_email)}`)
+		</script>
+	</div>
+	<div>
+		<a href="https://www.linkedin.com/in/tomasz-sieczko-1119a21a4/">LinkedIn</a>
+	</div>
+	<div>
+		<a href="https://github.com/tsieczko">GitHub</a>
+	</div>
 </footer>

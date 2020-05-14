@@ -1,3 +1,13 @@
-a {
-	color: blue;
+@import 'header.css';
+@import 'footer.css';
+
+body {
+	background-color: whitesmoke;
+	width: 60em;
+	margin: 1em auto;
+}
+
+#content {
+	text-align: left;
+	padding: 2em;
 }
