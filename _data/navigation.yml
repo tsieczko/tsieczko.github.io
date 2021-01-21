@@ -1,0 +1,17 @@
+- name: Home
+  link: /
+
+- name: Posts
+  link: /posts.html
+
+- name: Resume
+  link: /resume.html
+
+- name: Projects
+  link: /projects.html
+
+- name: Portfolio
+  link: /portfolio.html
+
+- name: About Me
+  link: /about.html
