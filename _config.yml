@@ -1,2 +1,6 @@
-url: "https://tsieczko.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-title: "Tomasz Sieczko" # the name of your site, e.g. ACME Corp.
+# the base hostname & protocol for your site, e.g. http://example.com
+url: "https://tsieczko.github.io"
+# the name of your site, e.g. ACME Corp.
+title: "Tomasz Sieczko"
+# the theme
+theme: "jekyll-theme-tsieczko"
