@@ -3,7 +3,8 @@ url: https://tsieczko.github.io
 # the name of your site, e.g. ACME Corp.
 title: Tomasz Sieczko
 # the theme
-theme: jekyll-theme-tsieczko
+# theme: jekyll-theme-tsieczko
+remote_theme: tsieczko/jekyll-theme-tsieczko
 
 author:
   name: Tomasz Sieczko
