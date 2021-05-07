@@ -1,11 +1,3 @@
-GIT
-  remote: https://github.com/tsieczko/jekyll-theme-tsieczko.git
-  revision: 02a3d137039a9db08de73eacbeb9f71ddfd5b506
-  branch: master
-  specs:
-    jekyll-theme-tsieczko (0.1.0)
-      jekyll
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -272,7 +264,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-theme-tsieczko!
 
 BUNDLED WITH
    2.1.2
